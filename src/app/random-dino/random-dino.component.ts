@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import dataset from '../data';
-import { Subject } from 'rxjs/subject';
+import { Subject } from 'rxjs/Subject';
 
 @Component({
   selector: 'app-random-dino',

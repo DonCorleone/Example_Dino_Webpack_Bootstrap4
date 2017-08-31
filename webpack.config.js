@@ -14,9 +14,7 @@ const nodeModules = path.join(process.cwd(), 'node_modules');
 const entryPoints = ["inline","polyfills","sw-register","scripts","styles","vendor","main"];
 const baseHref = "";
 const deployUrl = "";
-
-
-
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin')
 
 module.exports = {
   "devtool": "source-map",
@@ -304,7 +302,8 @@ module.exports = {
       "exclude": [],
       "tsConfigPath": "src/tsconfig.app.json",
       "skipCodeGeneration": true
-    })
+    }),
+    new UglifyJSPlugin()
   ],
   "node": {
     "fs": "empty",
