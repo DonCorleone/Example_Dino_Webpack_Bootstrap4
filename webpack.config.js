@@ -17,10 +17,10 @@ const deployUrl = "";
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin')
 
 module.exports = {
-  "devtool": "source-map",
-/*      devServer: {
-         contentBase: './dist'
-     }, */
+  devtool: "source-map",
+  devServer: {
+      contentBase: './dist'
+  }, 
   "resolve": {
     "extensions": [
       ".ts",
