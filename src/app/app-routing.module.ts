@@ -7,20 +7,17 @@ import { Routes, RouterModule } from '@angular/router';
 const routes: Routes = [
   {
     path: 'home',
-    component: DinoListComponent,
-    children: []
+    component: DinoListComponent
   },
   {
     path: 'basic',
-    component: BasicComponent,
-    children: []
+    component: BasicComponent
   },
   {
     path: 'random',
-    component: RandomDinoComponent,
-    children: []
+    component: RandomDinoComponent
   },
-  { path: '',   redirectTo: '/', pathMatch: 'full' },
+  { path: '',   redirectTo: '/home', pathMatch: 'full' },
 ];
 
 @NgModule({

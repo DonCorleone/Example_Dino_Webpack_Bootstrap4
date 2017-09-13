@@ -49,7 +49,7 @@ module.exports = {
     ],
     "styles": [
       "./node_modules/bootstrap/dist/css/bootstrap.min.css",
-      "./src/styles.css"
+      "./src/styles.scss"
     ]
   },
   "output": {
