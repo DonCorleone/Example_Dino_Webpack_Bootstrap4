@@ -20,7 +20,7 @@ const routes: Routes = [
     component: RandomDinoComponent,
     children: []
   },
-  { path: '',   redirectTo: '/home', pathMatch: 'full' },
+  { path: '',   redirectTo: '/', pathMatch: 'full' },
 ];
 
 @NgModule({

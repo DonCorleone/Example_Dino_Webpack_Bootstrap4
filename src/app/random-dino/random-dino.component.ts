@@ -5,7 +5,7 @@ import { Subject } from 'rxjs/Subject';
 @Component({
   selector: 'app-random-dino',
   templateUrl: './random-dino.component.html',
-  styleUrls: ['./random-dino.component.css']
+  styleUrls: ['./random-dino.component.scss']
 })
 export class RandomDinoComponent implements OnInit {
 
