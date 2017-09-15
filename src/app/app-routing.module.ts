@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { DinoListComponent } from './dino-list/dino-list.component';
 import { BasicComponent } from './basic/basic.component';
 import { RandomDinoComponent } from './random-dino/random-dino.component';
+import { CalendarComponent } from './calendar/calendar.component';
+import { LinksComponent } from './links/links.component';
 import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
@@ -16,6 +18,14 @@ const routes: Routes = [
   {
     path: 'random',
     component: RandomDinoComponent
+  },
+  {
+    path: 'calendar',
+    component: CalendarComponent
+  },
+  {
+    path: 'links',
+    component: LinksComponent
   },
   { path: '',   redirectTo: '/home', pathMatch: 'full' },
 ];

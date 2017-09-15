@@ -37,7 +37,7 @@ export class RandomDinoComponent implements OnInit {
     // to mimic delayed loading the component calls next on observable subject after four seconds. 
     setTimeout( () =>
      this.dino.next(dataset.dinosaurs[Math.round((Math.random() * 5))])
-    , 4000);
+    , 2000);
   }
 
 }

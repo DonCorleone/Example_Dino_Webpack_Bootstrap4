@@ -8,13 +8,17 @@ import { AppComponent } from './app.component';
 import { BasicComponent } from './basic/basic.component';
 import { DinoListComponent } from './dino-list/dino-list.component';
 import { RandomDinoComponent } from './random-dino/random-dino.component';
+import { CalendarComponent } from './calendar/calendar.component';
+import { LinksComponent } from './links/links.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BasicComponent,
     DinoListComponent,
-    RandomDinoComponent
+    RandomDinoComponent,
+    CalendarComponent,
+    LinksComponent
   ],
   imports: [
     BrowserModule,
