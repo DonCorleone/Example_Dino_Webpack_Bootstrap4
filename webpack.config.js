@@ -18,9 +18,9 @@ const UglifyJSPlugin = require('uglifyjs-webpack-plugin')
 
 module.exports = {
   devtool: "source-map",
-  /*devServer: {
-      contentBase: './dist'
-  },*/
+  devServer: {
+    historyApiFallback: true
+  },
   "resolve": {
     "extensions": [
       ".ts",

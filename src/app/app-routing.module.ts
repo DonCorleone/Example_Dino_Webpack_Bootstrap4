@@ -9,29 +9,39 @@ import { Routes, RouterModule } from '@angular/router';
 const routes: Routes = [
   {
     path: 'home',
-    component: DinoListComponent
+    component: DinoListComponent,
+    data: { title: 'home' }
   },
   {
     path: 'basic',
-    component: BasicComponent
+    component: BasicComponent,
+    data: { title: 'basic' }
   },
   {
     path: 'random',
-    component: RandomDinoComponent
+    component: RandomDinoComponent,
+    data: { title: 'random' }
   },
   {
     path: 'calendar',
-    component: CalendarComponent
+    component: CalendarComponent,
+    data: { title: 'calendario' }
   },
   {
     path: 'links',
-    component: LinksComponent
+    component: LinksComponent,
+    data: { title: 'links' }
   },
-  { path: '',   redirectTo: '/home', pathMatch: 'full' },
+  { path: '', redirectTo: '/home', pathMatch: 'full' }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [
+    RouterModule.forRoot(
+      routes,
+      { enableTracing: true } // <-- debugging purposes only
+    )
+  ],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
