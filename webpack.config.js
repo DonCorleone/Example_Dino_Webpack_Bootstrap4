@@ -21,6 +21,9 @@ module.exports = {
   devServer: {
     historyApiFallback: true
   },
+  /*devServer: {
+    contentBase: './dist'
+  },*/
   "resolve": {
     "extensions": [
       ".ts",
@@ -45,6 +48,7 @@ module.exports = {
     "scripts": [
       "script-loader!./node_modules/jquery/dist/jquery.min.js",
       "script-loader!./node_modules/tether/dist/js/tether.min.js",
+      "script-loader!./node_modules/popper.js/dist/umd/popper.min.js",      
       "script-loader!./node_modules/bootstrap/dist/js/bootstrap.min.js"
     ],
     "styles": [
