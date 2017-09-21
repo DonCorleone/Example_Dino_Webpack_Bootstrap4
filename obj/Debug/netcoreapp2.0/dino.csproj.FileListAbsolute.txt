@@ -1,0 +1,10 @@
+/Users/dev/Documents/dev/scaffold/angular/cli/dino/bin/Debug/netcoreapp2.0/dino.deps.json
+/Users/dev/Documents/dev/scaffold/angular/cli/dino/bin/Debug/netcoreapp2.0/dino.runtimeconfig.json
+/Users/dev/Documents/dev/scaffold/angular/cli/dino/bin/Debug/netcoreapp2.0/dino.runtimeconfig.dev.json
+/Users/dev/Documents/dev/scaffold/angular/cli/dino/bin/Debug/netcoreapp2.0/dino.dll
+/Users/dev/Documents/dev/scaffold/angular/cli/dino/bin/Debug/netcoreapp2.0/dino.pdb
+/Users/dev/Documents/dev/scaffold/angular/cli/dino/obj/Debug/netcoreapp2.0/dino.csproj.CoreCompileInputs.cache
+/Users/dev/Documents/dev/scaffold/angular/cli/dino/obj/Debug/netcoreapp2.0/dino.AssemblyInfoInputs.cache
+/Users/dev/Documents/dev/scaffold/angular/cli/dino/obj/Debug/netcoreapp2.0/dino.AssemblyInfo.cs
+/Users/dev/Documents/dev/scaffold/angular/cli/dino/obj/Debug/netcoreapp2.0/dino.dll
+/Users/dev/Documents/dev/scaffold/angular/cli/dino/obj/Debug/netcoreapp2.0/dino.pdb
