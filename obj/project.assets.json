@@ -12539,11 +12539,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dev/Documents/KinderKulturWebpack/dino.csproj",
+      "projectUniqueName": "/Users/dev/Documents/_Examples/Example_Dino_Webpack_Bootstrap4/dino.csproj",
       "projectName": "dino",
-      "projectPath": "/Users/dev/Documents/KinderKulturWebpack/dino.csproj",
+      "projectPath": "/Users/dev/Documents/_Examples/Example_Dino_Webpack_Bootstrap4/dino.csproj",
       "packagesPath": "/Users/dev/.nuget/packages/",
-      "outputPath": "/Users/dev/Documents/KinderKulturWebpack/obj/",
+      "outputPath": "/Users/dev/Documents/_Examples/Example_Dino_Webpack_Bootstrap4/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
